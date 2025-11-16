@@ -1,0 +1,13 @@
+class Person {
+  String name = "Luthfi";
+  String? address;
+  final String country = "Indonesia";
+}
+
+void main() {
+  var person = Person();
+
+  print(person.name);      
+  print(person.address);
+  print(person.country);   
+}
